@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MAIRDUMONT NETLETIX Ads-Text\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-21 10:33+0000\n"
+"PO-Revision-Date: 2018-06-21 10:35+0000\n"
+"Last-Translator: mrfischer <stephan@mrfischer.de>\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: nx-adstxt.php:30 nx-adstxt.php:31
+#, php-format
+msgid "%s ads.txt Agent"
+msgstr "%s ads.txt Agent"
+
+#: admin/class-nx-adstxt-admin.php:19
+#, php-format
+msgid "Configuration | %s"
+msgstr "Konfiguration | %s"
+
+#: admin/class-nx-adstxt-admin.php:49
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-nx-adstxt-admin.php:95
+#, php-format
+msgid ""
+"<strong>%s</strong> successfully activated. The Settings are available <a "
+"href=\"%s\">on this page</a>."
+msgstr ""
+"<strong>%s</strong> erfolgreich aktiviert. Die Einstellungen sind <a "
+"href=\"%s\">auf dieser Seite</a> verfügbar."
+
+#: admin/class-nx-adstxt-admin.php:108
+#, php-format
+msgid ""
+"<strong>%s</strong><br/> You have configured external ads.txt files, but "
+"they can't be loaded. The setting <strong>allow_url_fopen</strong> is "
+"deactivated. Please activate this in your php.ini or remove all external "
+"urls to the ads.txt."
+msgstr ""
+"<strong>%s</strong><br/> Sie haben externe ads.txt Dateien eingestellt, aber "
+"diese können nicht geladen werden. Die Einstellung <strong>"
+"allow_url_fopen</strong> ist deaktiviert. Bitte aktivieren Sie diese in "
+"Ihrer php.ini oder entfernen Sie alle externe Adressen."
+
+#: admin/class-nx-adstxt-admin.php:119
+#, php-format
+msgid ""
+"<strong>%s</strong><br/>Attention: There is already an ads.txt file in the "
+"root directory, which overwrites the settings made <a href=\"%s\">here</a>. "
+"Please remove the local ads.txt file."
+msgstr ""
+"<strong>%s</strong><br/>Achtung: Es existiert bereits eine ads.txt Datei im "
+"Root-Verzeichnis, welche die <a href=\"%s\">hier</a> vorgenommenen "
+"Einstellungen überschreibt. Bitte entfernen Sie die lokale ads.txt Datei."
+
+#: admin/class-nx-adstxt-admin.php:211
+msgid ""
+"Please enter your own ads.txt data, such as Google AdSense, below. If you've "
+"monetized your site through a marketer and provided you with a URL to the "
+"required ads.txt data, please submit it below to URLs."
+msgstr ""
+"Bitte hinterlegen Sie nachfolgend zunächst Ihre eigenen ads.txt Daten wie "
+"etwa von Google AdSense. Sofern Sie Ihre Seite über einen Vermarkter "
+"monetarisieren lassen und Ihnen eine URL zu den erforderlichen ads.txt Daten "
+"bereitgestellt wurden, hinterlegen Sie diese bitte unten bei URLs."
+
+#: admin/class-nx-adstxt-admin.php:220
+msgid ""
+"Subsequently, remote ads.txt sources can be included. For this purpose one "
+"or more URLs are deposited. The contents of these are appended to existing "
+"ads.txt data from the above input field."
+msgstr ""
+"Nachfolgend können entfernte ads.txt Quellen eingebunden werden. Dazu werden "
+"eine oder mehrere URLs hinterlegt. Die Inhalte dieser werden an existierende "
+"ads.txt Daten aus obigem Eingabefeld angehangen."
+
+#: admin/class-nx-adstxt-admin.php:230
+#, php-format
+msgid "%s Ads.txt %s"
+msgstr "%s Ads.txt %s"
+
+#: admin/class-nx-adstxt-admin.php:245
+#, php-format
+msgid "%s URLs %s"
+msgstr "%s URLs %s"
+
+#: admin/partials/row-url.php:10
+msgid "URL to ads.txt"
+msgstr "URL zur ads.txt"
+
+#: admin/partials/row-url.php:21
+msgid "Remove entry"
+msgstr "Eintrag löschen"
+
+#: admin/partials/nx-adstxt-admin-display.php:4
+#, php-format
+msgid "%s configuration"
+msgstr "%s Konfiguration"
+
+#: admin/partials/nx-adstxt-admin-display.php:7
+msgid ""
+"Via the plugin both own ads.txt data and ads.txt data from different sources "
+"can be deposited via URL link."
+msgstr ""
+"Über das Plugin können sowohl eigene ads.txt Daten als auch ads.txt Daten "
+"aus verschiedenen Quellen per URL-Link hinterlegt werden."
+
+#: admin/partials/nx-adstxt-admin-display.php:34
+msgid "URL"
+msgstr "URL"
+
+#: admin/partials/nx-adstxt-admin-display.php:51
+msgid "Add new URL"
+msgstr "Neue URL hinzufügen"
+
+#: admin/partials/nx-adstxt-admin-display.php:62
+msgid "Should the URL %name% be removed?"
+msgstr "Soll die URL %name% entfernt werden?"
+
+#: admin/partials/nx-adstxt-admin-display.php:63
+msgid "This entry is invalid"
+msgstr "Dieser Eintrag ist ungültig"
+
+#: admin/partials/nx-adstxt-admin-display.php:64
+msgid "The Type must be either DIRECT or RESELLER"
+msgstr "Der Typ muss entweder DIRECT oder RESELLER sein"
+
+#: admin/partials/nx-adstxt-admin-display.php:65
+msgid "No valid domain"
+msgstr "Keine gültige Domain"
+
+#. Name of the plugin
+msgid "MAIRDUMONT NETLETIX ads.txt Agent"
+msgstr "MAIRDUMONT NETLETIX ads.txt Agent"
+
+#. Description of the plugin
+msgid ""
+"With the ads.txt Agent of MAIRDUMONT NETLETIX not only local ads.txt data in "
+"the WordPress can be comfortably created and managed, but also remote ads."
+"txt sources can be integrated via URL."
+msgstr ""
+" Mit dem ads.txt Agent von MAIRDUMONT NETLETIX können nicht nur lokale ads."
+"txt Daten im WordPress komfortabel erstellt und verwaltet werden, sondern "
+"auch entfernte ads.txt Quellen per URL eingebunden werden."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.mairdumont-netletix.com/"
+msgstr "https://www.mairdumont-netletix.com/"
+
+#. Author of the plugin
+msgid "MAIRDUMONT NETLETIX"
+msgstr "MAIRDUMONT NETLETIX"

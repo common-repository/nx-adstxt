@@ -1,0 +1,152 @@
+#plugin-nx-adstxt .btn-remove {
+    cursor: pointer;
+}
+
+#plugin-nx-adstxt p.info {
+    max-width: 800px;
+}
+
+#plugin-nx-adstxt .notice {
+    max-width: 846px;
+}
+
+#plugin-nx-adstxt #logo  {
+    background: url(../assets/logo-mdnx.png) right 0 no-repeat;
+    width: 160px;
+    height: 26px;
+    display: block;
+    float: right;
+    margin: 1em 0 1em 1em;
+}
+
+@media all and (max-width : 600px)  {
+    #plugin-nx-adstxt #logo  {
+        float: none;
+        margin: 1em auto;
+    }
+}
+
+
+#plugin-nx-adstxt p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+#plugin-nx-adstxt [data-toggle] {
+    display: none;
+}
+
+#plugin-nx-adstxt h2 a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+#nxAdstxtEditor,
+#nxAdstxtUrls {
+    max-width: 900px;
+}
+
+#nxAdstxtEditor textarea {
+    width: 100%;
+    height: 500px;
+}
+
+#nxAdstxtEditor table,
+#nxAdstxtEditor table tbody {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+#nxAdstxtEditor table tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#nxAdstxtEditor table td {
+    flex: 1;
+    padding: 0;
+    display: inline-block;
+}
+
+#nxAdstxtEditor table th {
+    display: none;
+}
+
+#nxAdstxtEditor .CodeMirror {
+   height: auto;
+   position: relative;
+   overflow: hidden;
+}
+
+#plugin-nx-adstxt ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #cacaca;
+}
+
+#plugin-nx-adstxt ::-moz-placeholder { /* Firefox 19+ */
+    color: #cacaca;
+}
+
+#plugin-nx-adstxt :-ms-input-placeholder { /* IE 10+ */
+    color: #cacaca;
+}
+
+#plugin-nx-adstxt :-moz-placeholder { /* Firefox 18- */
+    color: #cacaca;
+}
+
+#nxAdstxtUrls input {
+    width: 100%;
+}
+
+#nxAdstxtUrls button .dashicons {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+/**
+    Name: MAIRDUMONT-NETLETIX 
+    https://www.mairdumont-netletix.com/
+ */
+ .cm-s-mdnx span.cm-meta { color: #808000; }
+ .cm-s-mdnx span.cm-number { color: #0000FF; }
+ .cm-s-mdnx span.cm-keyword { line-height: 1em; color: #9a2943;}
+ .cm-s-mdnx span.cm-atom { font-weight: bold; color: #000080; }
+ .cm-s-mdnx span.cm-def { color: #f18c16; }
+ .cm-s-mdnx span.cm-variable { color: black; }
+ .cm-s-mdnx span.cm-variable-2 { color: black; }
+ .cm-s-mdnx span.cm-variable-3, .cm-s-mdnx span.cm-type { color: black; }
+ .cm-s-mdnx span.cm-property { color: black; }
+ .cm-s-mdnx span.cm-operator { color: #249d7f; }
+ .cm-s-mdnx span.cm-comment { color: #6A6564; }
+ .cm-s-mdnx span.cm-string { color: #1C6792; }
+ .cm-s-mdnx span.cm-string-2 { color: #1C6792; }
+ .cm-s-mdnx span.cm-qualifier { color: #555; }
+ .cm-s-mdnx span.cm-error { color: #FF0000; }
+ .cm-s-mdnx span.cm-attribute { color: #0000FF; }
+ .cm-s-mdnx span.cm-tag { color: #000080; }
+ .cm-s-mdnx span.cm-link { color: #0000FF; }
+ .cm-s-mdnx .CodeMirror-activeline-background { background: rgba(154, 41, 67, 0.1); }
+ .cm-s-mdnx span.cm-builtin { color: #30a; }
+ .cm-s-mdnx span.cm-bracket { color: #cc7; }
+ .cm-s-mdnx  { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;}
+ .cm-s-mdnx .CodeMirror-matchingbracket { outline:1px solid grey; color:black !important; }
+ 
+ .CodeMirror-hints {
+   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+   color: #616569;
+   background-color: #ebf3fd !important;
+ }
+ 
+ .CodeMirror-hint-active {
+   background-color: #a2b8c9 !important;
+   color: #5c6065 !important;
+ }
